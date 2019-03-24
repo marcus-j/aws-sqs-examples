@@ -1,0 +1,12 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Sample stack for creating an AWS SQS queue",
+  "Resources": {
+    "TestQueue": {
+      "Type": "AWS::SQS::Queue",
+      "Properties": {
+        "QueueName": "TestQueue"
+      }
+    }
+  }
+}

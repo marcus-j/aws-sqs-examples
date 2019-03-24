@@ -17,5 +17,6 @@
 
     <modules>
         <module>sqs-client-with-java-sdk</module>
+		<module>sqs-client-with-spring-cloud-aws</module>
     </modules>
 </project>
